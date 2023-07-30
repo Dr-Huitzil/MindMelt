@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    background: rgb(32,48,111);
+    background: linear-gradient(167deg, rgba(32,48,111,1) 19%, rgba(195,142,117,1) 80%); 
+    font-family: 'Palanquin Dark', sans-serif;
+}
